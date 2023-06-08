@@ -1,13 +1,16 @@
 import os
 import time
-from utils import *
+from utils_fr import *
 
-def tdl_win():
-    os.system("cls")
+def tdl_win_fr():
     tasks = load_tasks()
     tasks_completed = load_completed_tasks()
+    os.system("cls")
+    print("Windows")
+    time.sleep(1)
+    os.system("cls")
     while True:
-        x = gui()
+        x = gui_fr()
         if x == "1":
             os.system("cls")
             task = add_task()
@@ -27,16 +30,19 @@ def tdl_win():
             os.system("cls")
             display_tasks(tasks)
             time.sleep(1)
+            os.system("cls")
         elif x == "4":
             os.system("cls")
             display_completed_tasks(tasks_completed)
             time.sleep(1)
+            os.system("cls")
         elif x == "5":
             os.system("cls")
             clean_completed_tasks()
             print("Tâches complétées nettoyées !")
             tasks_completed = load_completed_tasks()
             time.sleep(1)
+            os.system("cls")
         elif x == "6":
             save_tasks(tasks)
             save_completed_tasks(tasks_completed)

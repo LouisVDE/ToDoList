@@ -1,8 +1,9 @@
 def user_input():
-    x = input("Que voulez-vous faire ?\n")
+    x = 0
+    x = input("What would you like to do?\n")
     return x
 
-def gui():
+def gui_eng():
     cyan = "\033[1;36m"
     reset = "\033[0;0m"
     print(cyan + " _______      _____          _      _     _   ")
@@ -13,31 +14,31 @@ def gui():
     print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
     print(reset)    
     print('\n')
-    print("Que voulez-vous faire ?")
-    print("1. Ajouter une tâche")
-    print("2. Supprimer une tâche")
-    print("3. Afficher les tâches")
-    print("4. Afficher les tâches complétées")
-    print("5. Nettoyer les tâches complétées")
-    print("6. Quitter")
-    x = input("Votre choix : ")
+    print("What would you like to do?")
+    print("1. Add a task")
+    print("2. Remove a task")
+    print("3. Display tasks")
+    print("4. Display completed tasks")
+    print("5. Clean completed tasks")
+    print("6. Quit")
+    x = input("Your choice: ")
     return x
 
 def add_task():
-    task = input("Quelle tâche voulez-vous ajouter ?\n")
+    task = input("What task would you like to add?\n")
     return task
 
 def remove_task():
-    task_index = int(input("Quelle tâche voulez-vous supprimer ?\n"))
+    task_index = int(input("Which task would you like to remove?\n"))
     return task_index - 1
 
 def display_tasks(tasks):
-    print("Voici vos tâches :")
+    print("Here are your tasks:")
     for i in range(len(tasks)):
         print(str(i+1) + ". " + tasks[i])
 
 def display_completed_tasks(tasks_completed):
-    print("Voici vos tâches complétées :")
+    print("Here are your completed tasks:")
     for i, task in enumerate(tasks_completed):
         print(str(i+1) + ". " + task)
 

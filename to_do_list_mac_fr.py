@@ -1,13 +1,17 @@
 import os
 import time
-from utils import *
+from utils_fr import *
 
-def tdl_mac():
+def tdl_mac_fr():
     os.system("cls")
     tasks = load_tasks()
     tasks_completed = load_completed_tasks()
+    os.system("clear")
+    print("MacOs")
+    time.sleep(1)
+    os.system("clear")
     while True:
-        x = gui()
+        x = gui_fr()
         if x == "1":
             os.system("clear")
             task = add_task()

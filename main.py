@@ -1,30 +1,24 @@
-from utils import *
-from to_do_list_win import *
-from to_do_list_mac import *
+from utils_fr import *
+from utils_eng import *
+from to_do_list_win_fr import *
+from to_do_list_mac_fr import *
+from to_do_list_win_eng import *
+from to_do_list_mac_eng import *
+from language import *
+from os import name as os_name
 
 def main():
-    cyan = "\033[1;36m"
-    reset = "\033[0;0m"
-    print(cyan + " _______      _____          _      _     _   ")
-    print("|__   __|    |  __ \        | |    (_)   | |  ")
-    print("   | | ___   | |  | | ___   | |     _ ___| |_ ")
-    print("   | |/ _ \  | |  | |/ _ \  | |    | / __| __|")
-    print("   | | (_) | | |__| | (_) | | |____| \__ \ |_ ")
-    print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
-    print(reset)    
-    print('\n')
-    print("Sur quel système d'exploitation êtes-vous")
-    print("1. Windows")
-    print("2. MacOS")
-    print("3. Quitter")
-    x = user_input()
-    if x == "1":
-        tdl_win()
-    elif x == "2":
-        tdl_mac()
-    elif x == "3":
-        print("Au revoir !")
-        exit()
+    a = language()
+    if a == "1":
+        if os_name == "nt":
+            tdl_win_fr()
+        else:
+            tdl_mac_fr()
+    elif a == "2":
+        if os_name == "nt":
+            tdl_win_eng()
+        else:
+            tdl_mac_eng()
 
 if __name__ == "__main__":
     main()
