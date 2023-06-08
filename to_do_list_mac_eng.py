@@ -1,6 +1,7 @@
 import os
 import time
 from utils_fr import *
+from utils_eng import *
 
 def tdl_mac_eng():
     tasks = load_tasks()
@@ -11,7 +12,7 @@ def tdl_mac_eng():
     os.system("clear")
     while True:
         os.system("clear")
-        x = gui_fr()
+        x = gui_eng()
         if x == "1":
             os.system("clear")
             task = add_task()
