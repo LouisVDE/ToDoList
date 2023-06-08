@@ -1,5 +1,5 @@
 
-# To Do List V1.0.0
+# To Do List V1.0
 
 #### Get python
 
