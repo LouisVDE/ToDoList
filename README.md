@@ -1,5 +1,5 @@
 
-# To Do List V1.0.0
+# To Do List V1.0
 
 #### Get python
 
@@ -12,6 +12,8 @@
 
 Inside the folder make sure you have `tasks.txt` and `tasks_completed.txt`
 
+### In a terminal
+
 #### For the graphic version install Tkinter
 ```
 pip install tk
@@ -23,7 +25,7 @@ python3 main_gui.py
 
 ###
 
-#### For the line command version use :
+#### For the terminal version use :
 ```
 python3 main.py
 ```
