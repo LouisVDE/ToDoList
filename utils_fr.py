@@ -2,7 +2,6 @@ def user_input():
     x = input("Que voulez-vous faire ?\n").strip()
     return x
 
-
 def gui_fr():
     cyan = "\033[1;36m"
     reset = "\033[0;0m"
@@ -12,7 +11,7 @@ def gui_fr():
     print("   | |/ _ \  | |  | |/ _ \  | |    | / __| __|")
     print("   | | (_) | | |__| | (_) | | |____| \__ \ |_ ")
     print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
-    print("       Version 1.0")
+    print("       Version 1.0         by LouisVDE")
     print(reset)    
     print('\n')
     print("Que voulez-vous faire ?")

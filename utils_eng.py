@@ -12,7 +12,7 @@ def gui_eng():
     print("   | |/ _ \  | |  | |/ _ \  | |    | / __| __|")
     print("   | | (_) | | |__| | (_) | | |____| \__ \ |_ ")
     print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
-    print("       Version 1.0")
+    print("       Version 1.0         by LouisVDE")
     print(reset)    
     print('\n')
     print("What would you like to do?")
