@@ -25,7 +25,7 @@ python3 main_gui.py
 
 ###
 
-#### For the line command version use :
+#### For the terminal version use :
 ```
 python3 main.py
 ```
