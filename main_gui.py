@@ -106,7 +106,7 @@ def on_resize(event):
     listbox.config(width=event.width // 10, height=event.height // 25)
 
 window = tk.Tk()
-window.title("To-Do List")
+window.title("To-Do List V1.0")
 window.geometry("800x600")
 
 tasks = load_tasks()
