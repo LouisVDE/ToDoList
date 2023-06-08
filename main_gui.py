@@ -94,6 +94,7 @@ def add_task(event=None):
 
 window = tk.Tk()
 window.title("To-Do List")
+window.geometry("800x600")
 
 tasks = load_tasks()
 tasks_completed = load_completed_tasks()
