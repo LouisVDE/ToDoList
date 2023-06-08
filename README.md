@@ -10,6 +10,8 @@
 
 ## How to use ?
 
+### In a terminal
+
 Inside the folder make sure you have `tasks.txt` and `tasks_completed.txt`
 
 #### For the graphic version install Tkinter
