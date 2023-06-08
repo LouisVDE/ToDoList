@@ -1,6 +1,7 @@
 import os
 import time
 from utils_fr import *
+from utils_eng import *
 
 def tdl_win_eng():
     tasks = load_tasks()
@@ -10,7 +11,7 @@ def tdl_win_eng():
     time.sleep(1)
     os.system("cls")
     while True:
-        x = gui_fr()
+        x = gui_eng()
         if x == "1":
             os.system("cls")
             task = add_task()
