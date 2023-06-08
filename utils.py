@@ -3,7 +3,16 @@ def user_input():
     return x
 
 def gui():
-    print("Bienvenue dans votre To Do List !")
+    cyan = "\033[1;36m"
+    reset = "\033[0;0m"
+    print(cyan + " _______      _____          _      _     _   ")
+    print("|__   __|    |  __ \        | |    (_)   | |  ")
+    print("   | | ___   | |  | | ___   | |     _ ___| |_ ")
+    print("   | |/ _ \  | |  | |/ _ \  | |    | / __| __|")
+    print("   | | (_) | | |__| | (_) | | |____| \__ \ |_ ")
+    print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
+    print(reset)    
+    print('\n')
     print("Que voulez-vous faire ?")
     print("1. Ajouter une tâche")
     print("2. Supprimer une tâche")
