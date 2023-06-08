@@ -13,7 +13,7 @@ def main():
     print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
     print(reset)    
     print('\n')
-    print("Sur quel systeme d'exploitation êtes-vous ?")
+    print("Sur quel système d'exploitation êtes-vous")
     print("1. Windows")
     print("2. MacOS")
     print("3. Quitter")
