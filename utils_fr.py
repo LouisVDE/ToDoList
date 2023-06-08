@@ -12,6 +12,7 @@ def gui_fr():
     print("   | |/ _ \  | |  | |/ _ \  | |    | / __| __|")
     print("   | | (_) | | |__| | (_) | | |____| \__ \ |_ ")
     print("   |_|\___/  |_____/ \___/  |______|_|___/\__|")
+    print("       Version 1.0")
     print(reset)    
     print('\n')
     print("Que voulez-vous faire ?")

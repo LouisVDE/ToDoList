@@ -8,7 +8,6 @@ def tdl_mac_eng():
     tasks_completed = load_completed_tasks()
     os.system("clear")
     print("MacOs\n")
-    print("Version 1.0\n")
     time.sleep(1)
     os.system("clear")
     while True:

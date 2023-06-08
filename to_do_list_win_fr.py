@@ -7,7 +7,6 @@ def tdl_win_fr():
     tasks_completed = load_completed_tasks()
     os.system("cls")
     print("Windows\n")
-    print("Version 1.0\n")
     time.sleep(1)
     os.system("cls")
     while True:
